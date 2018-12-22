@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Giphy App</title>
+</head>
+
+<body style="background-color: rgb(153, 153, 55);">
+        <div class="container">
+                <div id="sportButtons">
+                <!-- Buttons  -->
+                <button class="btn btn-info sport" data-name="Soccer" style="margin: 5px; background-color: rgb(33, 53, 145);">Soccer</button>
+                <button class="btn btn-info sport" data-name="Baseball" style="margin: 5px; background-color: rgb(33, 53, 145);">Baseball</button>
+                <button class="btn btn-info sport" data-name="Tennis" style="margin: 5px; background-color: rgb(33, 53, 145);">Tennis</button>
+                <button class="btn btn-info sport" data-name="Football" style="margin: 5px; background-color: rgb(33, 53, 145);">Football</button>
+                <button class="btn btn-info sport" data-name="Basketball" style="margin: 5px; background-color: rgb(33, 53, 145);">Basketball</button>
+                <button class="btn btn-info sport" data-name="Hockey" style="margin: 5px; background-color: rgb(33, 53, 145);">Hockey</button>
+                <button class="btn btn-info sport" data-name="Volleyball" style="margin: 5px; background-color: rgb(33, 53, 145);">Volleyball</button>
+                <button class="btn btn-info sport" data-name="Swimming" style="margin: 5px; background-color: rgb(33, 53, 145);">Swimming</button>
+                <button class="btn btn-info sport" data-name="Skating" style="margin: 5px; background-color: rgb(33, 53, 145);">Skating</button>
+                <button class="btn btn-info sport" data-name="Bowling" style="margin: 5px; background-color: rgb(33, 53, 145);">Bowling</button>
+                <button class="btn btn-info sport" data-name="Golf" style="margin: 5px; background-color: rgb(33, 53, 145);" >Golf</button>
+                <button class="btn btn-info sport" data-name="Bicycle" style="margin: 5px; background-color: rgb(33, 53, 145);">Cycling</button>
+                <button class="btn btn-info sport" data-name="Surfing" style="margin: 5px; background-color: rgb(33, 53, 145);">Surfing</button>
+                <button class="btn btn-info sport" data-name="Canoeing" style="margin: 5px; background-color: rgb(33, 53, 145);">Canoeing</button>
+                <button class="btn btn-info sport" data-name="Skydiving" style="margin: 5px; background-color: rgb(33, 53, 145);">Skydiving</button>
+                </div>
+                </div>
+
+                <!-- Where the gifs will show -->
+                <div id="gifs" style="float:left"></div>
+
+                <!-- Write in section -->
+
+                <div style="text-align: center; margin-top:90px; ">
+                 <h4><b>Add Your own button for another Sport</b></h4>
+                 <br>
+                    <form id="gif-form">
+                        <label for="gif-input"></label>
+                        <input type="text" value="" id="gif-input"><br><br>
+                        <!--Creates the submit button-->
+                        <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:8px; background-color: rgb(97, 202, 209);">
+                    </form>
+                </div>
+                
+    <footer style="text-align: center; color: white; margin-top: 40px; font-size: 18px;">Powered by GIPHY <br>Developed by Alexis Y Sanabria</footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="giphy.js"></script>
+</body>
+
+</html>
+
